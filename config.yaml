@@ -1,7 +1,7 @@
 window:
   w: 800
   h: 800
-  title: life
+  title: audio
 physics:
   enable: false
 graphics:

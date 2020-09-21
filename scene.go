@@ -8,6 +8,7 @@ import (
 	"log"
 	"math"
 	"os"
+	"time"
 )
 
 const bufferSize = 1024
@@ -29,6 +30,7 @@ func NewMusic(base scenes.Base, f *ObjectFactory) *Music {
 }
 
 func (l *Music) Init() {
+	time.Sleep(4 * time.Second)
 	_ = l.factory.NewLine(0, 0, 1, 1)
 
 	var err error
