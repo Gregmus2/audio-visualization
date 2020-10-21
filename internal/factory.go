@@ -1,4 +1,4 @@
-package main
+package internal
 
 import (
 	"github.com/Gregmus2/simple-engine/common"

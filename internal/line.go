@@ -1,4 +1,4 @@
-package main
+package internal
 
 import (
 	"github.com/Gregmus2/simple-engine/graphics"
@@ -7,8 +7,8 @@ import (
 
 type Line struct {
 	x1, y1, x2, y2 float32
-	prog  uint32
-	shape *graphics.ShapeHelper
+	prog           uint32
+	shape          *graphics.ShapeHelper
 }
 
 func (f *ObjectFactory) NewLine(x1, y1, x2, y2 float32) *Line {

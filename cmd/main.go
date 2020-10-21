@@ -4,6 +4,7 @@ import (
 	engine "github.com/Gregmus2/simple-engine"
 	"github.com/sirupsen/logrus"
 	"go.uber.org/dig"
+	"music/internal"
 	"runtime"
 )
 
@@ -20,7 +21,7 @@ func main() {
 		logrus.WithError(err).Fatal("error building DI container")
 	}
 
-	if err := c.Invoke(func(app *engine.App, music *Music) {
+	if err := c.Invoke(func(app *engine.App, music *internal.Music) {
 		app.InitWithScene(music)
 		app.Loop()
 	}); err != nil {
@@ -29,11 +30,11 @@ func main() {
 }
 
 func buildContainer(c *dig.Container) error {
-	if err := c.Provide(NewObjectFactory); err != nil {
+	if err := c.Provide(internal.NewObjectFactory); err != nil {
 		return err
 	}
 
-	if err := c.Provide(NewMusic); err != nil {
+	if err := c.Provide(internal.NewMusic); err != nil {
 		return err
 	}
 

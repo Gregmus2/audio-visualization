@@ -2,10 +2,6 @@ dmitri.shuralyov.com/gpu/mtl v0.0.0-20190408044501-666a987793e9/go.mod h1:H6x//7
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
 github.com/ByteArena/box2d v1.0.2 h1:f7f9KEQWhCs1n516DMLzi5w6u0MeeE78Mes4fWMcj9k=
 github.com/ByteArena/box2d v1.0.2/go.mod h1:LzEuxY9iCz+tskfWCY3o0ywYBRafDDugdSj+/YGI6sE=
-github.com/Gregmus2/simple-engine v0.0.8 h1:yufzy/hNRwnRRAsLrM3bCRm1ojpfb8ODPgJrgtH5GDY=
-github.com/Gregmus2/simple-engine v0.0.8/go.mod h1:ZunpDYjeAmB/QdNfRcEG8IG3pjbEOHes+YMMmJnUT+w=
-github.com/Gregmus2/simple-engine v0.0.9 h1:1lvJrjFnMbXNMvfwjo0D91e5NQuCqzKniUcM3C0kQ+4=
-github.com/Gregmus2/simple-engine v0.0.9/go.mod h1:ZunpDYjeAmB/QdNfRcEG8IG3pjbEOHes+YMMmJnUT+w=
 github.com/Gregmus2/simple-engine v0.0.10 h1:Z/vRRKMzjJELTsucbErfzNPzoP3OKxbJ3wkx9n30chU=
 github.com/Gregmus2/simple-engine v0.0.10/go.mod h1:ZunpDYjeAmB/QdNfRcEG8IG3pjbEOHes+YMMmJnUT+w=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
